@@ -25,6 +25,25 @@ p{
     max-width: 1200px;
     max-height: 1200px;
 }
+.star{
+    color: rgb(255, 200, 0);
+}
+
+.accordion-item{
+    border: none;
+}
+.faqSection{
+    marg
+}
+.companiesSection{
+    margin: 4rem 0;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: black;
+}
 
 @media screen and (max-width:600px) {
     .btn-hidden{

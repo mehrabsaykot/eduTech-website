@@ -17,8 +17,10 @@ p{
 .nav-link{
     color: rgb(59, 59, 59);
 }
+
 .carousel-caption{
-    margin-bottom: 10rem;
+    margin-top: 6rem ;
+    margin-bottom: 4rem;
 }
 
 .modal-dialog{
@@ -28,13 +30,23 @@ p{
 .star{
     color: rgb(255, 200, 0);
 }
+.leftArrow{
+    top:170px;
+    left: -5px;
+    font-size: 30px;
+    color: #78bfe5d0
+}
+.rightArrow{
+    top:170px;
+    right:-5px;
+    font-size: 30px;
+    color: #0b9be8
+}
 
 .accordion-item{
     border: none;
 }
-.faqSection{
-    marg
-}
+
 .companiesSection{
     margin: 4rem 0;
 }
@@ -53,10 +65,47 @@ footer{
         width: 100%;
         margin-bottom: 0rem;
     }
+    .carousel-caption h1{
+        font-size: 20px;
+    }
+    .carousel-caption p{
+        font-size: 10px;
+    }
+    .hiddenPart{
+        display: none;
+    }
+    .companiesSection{
+        display: none;
+    }
+    .leftArrow,.rightArrow{
+        display: none;
+    }
 }
-@media screen and (min-width:600px) and (max-width:900px) {
+@media screen and (min-width:600px) and (max-width:992px) {
+    
     .carousel-caption{
         width: 80%;
         margin-bottom: 0rem;
     }
+    .carousel-caption h1{
+        font-size: 25px;
+    }
+    .hiddenPart{
+        display: none;
+    }
+    .carousel-caption p{
+        font-size: 12px;
+    }
+    .companiesSection{
+        display: none;
+    }
+    .carousel-caption{
+        width: 100%;
+        margin: 0;
+    }
+    .leftArrow,.rightArrow{
+        display: none;
+    }
+    
+    
 }

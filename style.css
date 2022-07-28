@@ -1,5 +1,7 @@
+/* google font import here  */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* overall style  */
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -9,6 +11,8 @@ h1{
 p{
     font-weight: 300;
 }
+
+/* class based style  */
 .navbar-brand{
     color: rgb(45, 45, 45);
     font-size: 28px;
@@ -57,6 +61,7 @@ footer{
     background-color: black;
 }
 
+/* media quaries for mobile  */
 @media screen and (max-width:600px) {
     .btn-hidden{
         display: none;
@@ -81,8 +86,10 @@ footer{
         display: none;
     }
 }
+
+
+/* media quaries for tab  */
 @media screen and (min-width:600px) and (max-width:992px) {
-    
     .carousel-caption{
         width: 80%;
         margin-bottom: 0rem;
@@ -105,7 +112,5 @@ footer{
     }
     .leftArrow,.rightArrow{
         display: none;
-    }
-    
-    
+    } 
 }
